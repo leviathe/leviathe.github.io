@@ -10,3 +10,9 @@ en vue isometrique
 [] Mettre des stats
 
 [] Compléter projets
+
+[] Système de recherce de projet
+
+[] Controle par le mouvement / voix ou texte
+
+[] mapping nom de tag / couleur
