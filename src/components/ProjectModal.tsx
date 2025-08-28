@@ -1,4 +1,10 @@
-function ProjectModal({project}) {
+import type {IProject} from "./IProject"
+
+type ProjectType = {
+    project: IProject | null;
+};
+
+function ProjectModal({project}: ProjectType) {
     if (!project) {
         return null
     }

@@ -12,7 +12,7 @@ function ScholarProjects() {
                             <div className="card-body">
                                 <h3 className="card-title">{projet.title}</h3>
                                 <div className="card-actions justify-end">
-                                    <button className="btn" onClick={() => document.getElementById(`modal_${projet.id}`).showModal()}>Voir +</button>
+                                    <button className="btn" onClick={() => (document.getElementById(`modal_${projet.id}`) as HTMLDialogElement).showModal()}>Voir +</button>
                                     <ProjectModal project={projet} />
                                 </div>
                             </div>
