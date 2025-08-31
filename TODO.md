@@ -9,10 +9,12 @@ en vue isometrique
 
 [] Mettre des stats
 
-[] Compléter projets
+[X] Compléter projets
 
-[] Système de recherce de projet
+[] Système de recherche de projet
 
 [] Controle par le mouvement / voix ou texte
 
 [] mapping nom de tag / couleur
+
+[] Fix PB couleur Projets scolaires et taille responsive frise

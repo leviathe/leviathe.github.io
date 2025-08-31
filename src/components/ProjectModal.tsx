@@ -16,14 +16,15 @@ function ProjectModal({project}: ProjectType) {
                 <p className="py-4">{project.description}</p>
                 <div className="modal-action">
                     <form method="dialog">
-                        <a
+                        {project.link && (<a
                             href={project.link}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"
                         >
-                            Voir sur GitHub
-                        </a>
+                            GitHub
+                        </a>)
+                        }
                         <button className="btn">Fermer</button>
                     </form>
                 </div>
