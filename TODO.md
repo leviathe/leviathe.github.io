@@ -3,11 +3,9 @@ en vue isometrique
 
 [] Trouver une utilité au Bouton Mon CV
 
-[] Rendre persistant le theme controller
+[X] Rendre persistant le theme controller
 
 [] Mettre des skeletons
-
-[] Mettre des stats
 
 [X] Compléter projets
 

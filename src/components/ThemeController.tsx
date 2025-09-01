@@ -1,7 +1,36 @@
+import { useState, useEffect } from 'react';
+
 function ThemeController() {
+    const [theme, setTheme] = useState(() => {
+        const saved = localStorage.getItem('theme');
+        console.log(saved)
+        return saved ? JSON.parse(saved) : false;
+    });
+
+    useEffect(() => {
+        //const savedTheme = ;
+        let value, state;
+        if (theme === 'dark') {
+            state = true;
+            value = 'dark';
+        } else {
+            state = false;
+            value = 'light';
+        }
+        setTheme(state)
+        document.documentElement.setAttribute('data-theme', value);
+    }, []);
+
+    const handleToggle = () => {
+        const newTheme = theme ? 'light' : 'dark';
+        setTheme(!theme);
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', JSON.stringify(newTheme));
+    };
+
     return (
         <label className="swap swap-rotate">
-            <input type="checkbox" className="theme-controller" value="dark" />
+            <input type="checkbox" className="theme-controller" checked={theme} onChange={handleToggle} />
 
             <svg
                 className="swap-off h-10 w-10 fill-current"
