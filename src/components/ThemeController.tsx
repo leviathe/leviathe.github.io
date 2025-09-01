@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 function ThemeController() {
     const [theme, setTheme] = useState(() => {
         const saved = localStorage.getItem('theme');
-        return saved ? JSON.parse(saved) : false;
+        return saved ? JSON.parse(saved) : 'light';
     });
 
     useEffect(() => {
