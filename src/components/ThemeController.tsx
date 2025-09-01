@@ -3,20 +3,12 @@ import { useState, useEffect } from 'react';
 function ThemeController() {
     const [theme, setTheme] = useState(() => {
         const saved = localStorage.getItem('theme');
-        console.log(saved)
         return saved ? JSON.parse(saved) : false;
     });
 
     useEffect(() => {
-        //const savedTheme = ;
-        let value, state;
-        if (theme === 'dark') {
-            state = true;
-            value = 'dark';
-        } else {
-            state = false;
-            value = 'light';
-        }
+        let state = theme === 'dark';
+        let value = state ? 'dark' : 'light';
         setTheme(state)
         document.documentElement.setAttribute('data-theme', value);
     }, []);
