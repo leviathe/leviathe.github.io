@@ -47,7 +47,7 @@ function ScholarProjects() {
                                     <button className="btn" onClick={() => (document.getElementById(`modal_${project.id}`) as HTMLDialogElement).showModal()}>Voir</button>
                                     <ProjectModal project={project} />
                                 </div>
-                                <div className="flex gap-2">
+                                <div className="flex flex-wrap overflow-hidden gap-2">
                                     {
                                         project.tags.map(tag => (
                                             <div className={`badge ${getBadgeColor(tag)} badge-lg`}>
