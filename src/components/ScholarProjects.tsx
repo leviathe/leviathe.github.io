@@ -3,6 +3,24 @@ import yaml from "js-yaml"
 import type {IProject} from "./IProject";
 import ProjectModal from "./ProjectModal";
 
+function getBadgeColor(name: string): string {
+    switch (name.toLowerCase()) {
+        case "react":
+            return "badge-primary"; // bleu
+        case "typescript":
+            return "badge-info"; // cyan
+        case "tailwind":
+            return "badge-accent"; // rose
+        case "node.js":
+        case "node":
+            return "badge-success"; // vert
+        case "docker":
+            return "badge-warning"; // jaune
+        default:
+            return "badge-neutral"; // gris par défaut
+    }
+}
+
 async function loadProjects() : Promise<IProject[]> {
     const response = await fetch("/data/projects.yaml");
     const text = await response.text();
@@ -28,6 +46,15 @@ function ScholarProjects() {
                                 <div className="card-actions justify-end">
                                     <button className="btn" onClick={() => (document.getElementById(`modal_${project.id}`) as HTMLDialogElement).showModal()}>Voir</button>
                                     <ProjectModal project={project} />
+                                </div>
+                                <div className="flex gap-2">
+                                    {
+                                        project.tags.map(tag => (
+                                            <div className={`badge ${getBadgeColor(tag)} badge-lg`}>
+                                                {tag}
+                                            </div>
+                                        ))
+                                    }
                                 </div>
                             </div>
                         </div>

@@ -2,7 +2,7 @@ import ThemeController from "./ThemeController.tsx";
 
 function Navbar() {
     return (
-        <div className="navbar bg-base-100 shadow">
+        <div className={`navbar bg-yellow-500 text-primary-content`}>
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">Mon CV</a>
             </div>

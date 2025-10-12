@@ -9,12 +9,13 @@ function Hero() {
                     />
                 </div>*/}
                 <div className="max-w-2xl">
-                    <h1 className="text-5xl font-bold">Paul Pazart</h1>
+                    <h2 className="text-2xl font-bold">Salut ! Je suis </h2>
+                    <h1 className="text-5xl font-bold">Paul</h1>
                     <p className="py-6">
                         Étudiant AI – touche à tout
                     </p>
                     <div className="flex justify-center gap-2">
-                        <span className="badge badge-primary">Etudiant</span>
+                        <span className="badge badge-primary">Étudiant IA</span>
                         <span className="badge badge-secondary">Python</span>
                         <span className="badge badge-accent">ML</span>
                     </div>
