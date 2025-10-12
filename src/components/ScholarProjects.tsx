@@ -6,7 +6,7 @@ import ProjectModal from "./ProjectModal";
 async function loadProjects() : Promise<IProject[]> {
     const response = await fetch("/data/projects.yaml");
     const text = await response.text();
-    const data = yaml.load(text) as {projects: IProject[]}; // Testes sans project
+    const data = yaml.load(text) as {projects: IProject[]};
     return data.projects
 }
 
