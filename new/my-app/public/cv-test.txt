@@ -1,0 +1,5 @@
+Ceci est un fichier de test.
+Il servira d'emplacement pour le futur vrai CV en format PDF.
+
+Nom: Paul Pazart
+Spécialité: Machine Learning & Computer Vision
