@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
                     <li key={skill.name} className="space-y-2">
                       <div className="flex justify-between items-center">
                         <span>{skill.name}</span>
-                        <span className={skill.textWhite ? 'text-white' : 'text-brand'}>{skill.value}</span>
+                        <span className={(skill as any).textWhite ? 'text-white' : 'text-brand'}>{skill.value}</span>
                       </div>
                       <div className="data-bar">
                         <div className="data-bar-fill" style={{ width: `${skill.percentage}%` }}></div>
