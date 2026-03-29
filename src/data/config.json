@@ -1,0 +1,221 @@
+{
+  "navbar": {
+    "unit": "OS_CORE // UNIT_001",
+    "menu": [
+      {
+        "number": "01",
+        "label": "PROFILE",
+        "href": "#about"
+      },
+      {
+        "number": "02",
+        "label": "EXPERIENCE",
+        "href": "#experience"
+      },
+      {
+        "number": "03",
+        "label": "SKILLS",
+        "href": "#skills"
+      },
+      {
+        "number": "04",
+        "label": "EDUCATION",
+        "href": "#formation"
+      },
+      {
+        "number": "05",
+        "label": "PROJECTS",
+        "href": "#projects"
+      }
+    ]
+  },
+  "hero": {
+    "titleLine1": "PAUL",
+    "titleLine2": "PAZART",
+    "subtitle1": "Artificial Intelligence Student",
+    "subtitle2": "Neural Architectures & Computer Vision",
+    "systemLoadedText": "SYSTEM_LOADED: KERNEL_0.4.1",
+    "coordRef": "COORD_REF: 01.A",
+    "sectorRadar": "SECTOR_RADAR: ACTIVE"
+  },
+  "profile": {
+    "headline": [
+      "Designing sentient",
+      "interfaces for the",
+      "physical world."
+    ],
+    "description": "AI Engineering student specializing in Computer Vision and Deep Learning. I focus on designing intelligent systems, bridging the gap between state-of-the-art research and robust software implementation. With a strong foundation in PyTorch and system-level programming (C, Rust), I build efficient and scalable AI pipelines to solve complex real-world problems.",
+    "specs": {
+      "nodeLoc": "PARIS, FR",
+      "osStatus": "Operational",
+      "firmwareV": "AI.2026.03",
+      "coreLoad": "Neural / Vision"
+    },
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDAz2BpL48ikVgtelIajcW5lMwnnqYsSpRGJF7TybAZeWPi2jawI3xLWJ227xmu9_t9zZxwllZOE6bLqcZFGTpngCWXRrry5uNvhQAMGRyoopNuS6LSpDLrVqME86Ndq4m67_Jr0QiIW35fNucaLl5fPVKn5cgGvAPhF9xH1H7i-fbW3sikIvpECvFtX0Rx1iGrmJCi5MTWpy_qI3SA18hqKY5b_U-lNWfU6ky8EtchvBFlAkPDY2xwEMTRhq98fiDWRWF9NQu_Ukgm",
+    "resolution": "1024x1280",
+    "facialId": "FACIAL_ID_CONFIRMED"
+  },
+  "experience": [
+    {
+      "period": "2026 — PRESENT",
+      "role": "AI Engineer // Aubay",
+      "description": "Engineered an image segmentation pipeline for coral biometric estimation (weight). Developed a predictive health model to analyze the impact of environmental factors, such as shading.",
+      "tags": [
+        "PYTORCH",
+        "TRANSFORMERS",
+        "HUGGINGFACE"
+      ],
+      "active": true
+    },
+    {
+      "period": "2024 — 2025",
+      "role": "QA ENGINEER // PAPERNEST",
+      "description": "Implemented and maintained End-to-End (E2E) and regression test suites for legacy applications, ensuring system stability during version updates and migrations.",
+      "tags": [
+        "CYPRESS",
+        "PLAYWRIGHT",
+        "TYPESCRIPT"
+      ],
+      "active": false
+    },
+    {
+      "period": "2023 — 2024",
+      "role": "ASM // EPITA",
+      "description": "Instructed second-year undergraduate engineering students. Developed course materials and led lab sessions (TP/TD) focused on C, Rust, and LaTeX.",
+      "tags": [
+        "C",
+        "RUST",
+        "LATEX"
+      ],
+      "active": false
+    }
+  ],
+  "skills": [
+    {
+      "id": "M_01",
+      "title": "Neural_Arch",
+      "items": [
+        {
+          "name": "Deep Learning",
+          "value": "0.85",
+          "percentage": 85
+        },
+        {
+          "name": "Reinf. Learning",
+          "value": "0.80",
+          "percentage": 80
+        },
+        {
+          "name": "Comp. Vision",
+          "value": "0.90",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "id": "M_02",
+      "title": "SYS_CORE",
+      "items": [
+        {
+          "name": "Python",
+          "value": "0.95",
+          "percentage": 95
+        },
+        {
+          "name": "C / Rust",
+          "value": "0.88",
+          "percentage": 88
+        },
+        {
+          "name": "Multi-Agent",
+          "value": "0.75",
+          "percentage": 75
+        }
+      ]
+    },
+    {
+      "id": "M_03",
+      "title": "Framework",
+      "items": [
+        {
+          "name": "PyTorch",
+          "value": "Advanced",
+          "percentage": 85,
+          "textWhite": true
+        },
+        {
+          "name": "Linux / Git",
+          "value": "FLUENT",
+          "percentage": 80,
+          "textWhite": true
+        },
+        {
+          "name": "Generative UI",
+          "value": "APPLIED",
+          "percentage": 65,
+          "textWhite": true
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "certLevel": "CERT_LEVEL_7",
+      "degree": "Engineering Degree in Artificial Intelligence",
+      "institution": "EPITA, FR",
+      "highlight": "SPECIALIZATION: COMPUTER_VISION",
+      "highlightColor": "bg-brand",
+      "period": "2021 — 2026"
+    }
+  ],
+  "projects": [
+    {
+      "id": "RL_AGENT_BREAKOUT",
+      "version": "v1.0_D",
+      "image": "http://googleusercontent.com/profile/picture/3",
+      "title": "BREAKOUT // AUTONOMOUS_AGENT",
+      "description": "Engineered an autonomous agent using Deep Double Q-Learning (DDQN) in PyTorch and Gymnasium. Implemented continuous evaluation metrics and reward optimization strategies to improve decision-making policies.",
+      "linkText": "PAGE_PROJECT",
+      "link": "#",
+      "tech": "PYTORCH, GYMNASIUM",
+      "number": "01"
+    },
+    {
+      "id": "KAGGLE_VISION_CNN",
+      "version": "v1.0_PROD",
+      "image": "http://googleusercontent.com/profile/picture/4",
+      "title": "KAGGLE // SHIP_RECOGNITION",
+      "description": "Designed and trained a CNN from scratch for robust object recognition (ships) on a complex dataset. Ranked competitively among 120 teams, demonstrating strong applied Computer Vision capabilities.",
+      "linkText": "PAGE_PROJECT",
+      "link": "#",
+      "tech": "COMPUTER_VISION, CNN",
+      "number": "02"
+    },
+    {
+      "id": "MULTI_AGENT_DOCTOR",
+      "version": "v1.2_M",
+      "image": "http://googleusercontent.com/profile/picture/5",
+      "title": "DOCTOR // DECENTRALIZED_AI",
+      "description": "Developed a decentralized multi-agent AI system using PyTorch and Hugging Face Transformers. Designed a self-learning architecture to analyze user inputs and coordinate disease detection tasks.",
+      "linkText": "PAGE_PROJECT",
+      "link": "#",
+      "tech": "PYTORCH, HUGGING_FACE",
+      "number": "03"
+    }
+  ],
+  "footer": {
+    "designedBy": "Paul Pazart // Operator_01",
+    "copyright": "© 2026 SYSTEM_RESERVED",
+    "encryption": "AES-256",
+    "links": [
+      {
+        "label": "GITHUB",
+        "url": "https://github.com/leviathe"
+      },
+      {
+        "label": "LINKEDIN",
+        "url": "https://www.linkedin.com/in/paul-pazart/"
+      }
+    ]
+  }
+}

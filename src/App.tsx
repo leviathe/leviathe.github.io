@@ -1,23 +1,30 @@
-import './App.css'
-import Navbar from "./components/Navbar.tsx";
-import Footer from "./components/Footer";
-import Timeline from "./components/Timeline.tsx";
-import Hero from "./components/Hero.tsx";
-import AboutMe from "./components/AboutMe.tsx";
-import ScholarProjects from "./components/ScholarProjects.tsx";
+import React from 'react';
+import './styles/global.css';
 
-function App() {
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Profile from './components/Profile';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
-    return (
-        <div className="min-h-screen bg-base-200">
-            <Navbar/>
-            <Hero/>
-            <AboutMe/>
-            <Timeline/>
-            <ScholarProjects/>
-            <Footer/>
-        </div>
-    );
-}
+const App: React.FC = () => {
+  return (
+    <div className="font-sans dot-bg">
+      <Navbar />
+      <main>
+        <Hero />
+        <Profile />
+        <Experience />
+        <Skills />
+        <Education />
+        <Projects />
+      </main>
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
