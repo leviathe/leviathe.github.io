@@ -1,6 +1,7 @@
 {
   "navbar": {
     "unit": "OS_CORE // UNIT_001",
+    "logo": "logo.png",
     "menu": [
       {
         "number": "01",
