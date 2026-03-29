@@ -51,7 +51,7 @@
       "firmwareV": "AI.2026.03",
       "coreLoad": "Neural / Vision"
     },
-    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDAz2BpL48ikVgtelIajcW5lMwnnqYsSpRGJF7TybAZeWPi2jawI3xLWJ227xmu9_t9zZxwllZOE6bLqcZFGTpngCWXRrry5uNvhQAMGRyoopNuS6LSpDLrVqME86Ndq4m67_Jr0QiIW35fNucaLl5fPVKn5cgGvAPhF9xH1H7i-fbW3sikIvpECvFtX0Rx1iGrmJCi5MTWpy_qI3SA18hqKY5b_U-lNWfU6ky8EtchvBFlAkPDY2xwEMTRhq98fiDWRWF9NQu_Ukgm",
+    "imageUrl": "profile.png",
     "resolution": "1024x1280",
     "facialId": "FACIAL_ID_CONFIRMED"
   },
@@ -172,7 +172,7 @@
     {
       "id": "RL_AGENT_BREAKOUT",
       "version": "v1.0_D",
-      "image": "http://googleusercontent.com/profile/picture/3",
+      "image": "project-breakout.png",
       "title": "BREAKOUT // AUTONOMOUS_AGENT",
       "description": "Engineered an autonomous agent using Deep Double Q-Learning (DDQN) in PyTorch and Gymnasium. Implemented continuous evaluation metrics and reward optimization strategies to improve decision-making policies.",
       "linkText": "PAGE_PROJECT",
@@ -183,7 +183,7 @@
     {
       "id": "KAGGLE_VISION_CNN",
       "version": "v1.0_PROD",
-      "image": "http://googleusercontent.com/profile/picture/4",
+      "image": "project-ships.png",
       "title": "KAGGLE // SHIP_RECOGNITION",
       "description": "Designed and trained a CNN from scratch for robust object recognition (ships) on a complex dataset. Ranked competitively among 120 teams, demonstrating strong applied Computer Vision capabilities.",
       "linkText": "PAGE_PROJECT",
@@ -194,7 +194,7 @@
     {
       "id": "MULTI_AGENT_DOCTOR",
       "version": "v1.2_M",
-      "image": "http://googleusercontent.com/profile/picture/5",
+      "image": "project-doctor.png",
       "title": "DOCTOR // DECENTRALIZED_AI",
       "description": "Developed a decentralized multi-agent AI system using PyTorch and Hugging Face Transformers. Designed a self-learning architecture to analyze user inputs and coordinate disease detection tasks.",
       "linkText": "PAGE_PROJECT",

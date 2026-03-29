@@ -1,6 +1,10 @@
 import React from 'react';
 import config from '../data/config.json';
 
+const getImageUrl = (name: string) => {
+  return new URL(`../assets/${name}`, import.meta.url).href;
+};
+
 const Profile: React.FC = () => {
   return (
     <section className="py-32 px-6 border-y border-[#222] bg-surface relative" id="about">
@@ -54,7 +58,7 @@ const Profile: React.FC = () => {
             <div className="absolute inset-0 grid-bg opacity-20 pointer-events-none"></div>
             <div className="relative w-full h-full">
               <div className="relative w-full h-full border border-[#333] overflow-hidden">
-                <img alt="Profile" className="w-full h-full object-cover grayscale opacity-70 group-hover:opacity-100 transition-all duration-700" src={config.profile.imageUrl} />
+                <img alt="Profile" className="w-full h-full object-cover grayscale group-hover:grayscale-0 opacity-70 group-hover:opacity-100 transition-all duration-700" src={getImageUrl(config.profile.imageUrl)} />
                 {/* AI Mask Overlay */}
                 <div className="absolute inset-0 opacity-40 group-hover:opacity-10 transition-opacity">
                   <svg className="w-full h-full text-brand" viewBox="0 0 100 100">

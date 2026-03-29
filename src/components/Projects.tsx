@@ -1,6 +1,10 @@
 import React from 'react';
 import config from '../data/config.json';
 
+const getImageUrl = (name: string) => {
+  return new URL(`../assets/${name}`, import.meta.url).href;
+};
+
 const Projects: React.FC = () => {
   return (
     <section className="py-32 px-6 border-t border-[#222]" id="projects">
@@ -21,7 +25,7 @@ const Projects: React.FC = () => {
             <div key={index} className="group relative">
               <div className="aspect-video bg-[#111] border border-[#222] mb-8 overflow-hidden relative">
                 <div className="absolute inset-0 grid-bg opacity-10"></div>
-                <img alt={`Project ${index + 1}`} className="w-full h-full object-cover grayscale opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" src={project.image} />
+                <img alt={`Project ${index + 1}`} className="w-full h-full object-cover grayscale group-hover:grayscale-0 opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" src={getImageUrl(project.image)} />
                 <div className="absolute top-4 left-4 bg-black/80 px-2 py-1 border border-[#333] flex items-center gap-2">
                   <div className="w-1 h-1 bg-brand"></div>
                   <span className="text-[8px] font-mono">ID: {project.id}</span>
